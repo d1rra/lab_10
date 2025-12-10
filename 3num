@@ -1,0 +1,12 @@
+max_number = 0
+
+while True:
+    x = int(input('Введите числа(0 для завершнеия цикла: '))
+
+    if x == 0:
+        break
+
+    if x > max_number:
+        max_number = x
+
+print(max_number)
